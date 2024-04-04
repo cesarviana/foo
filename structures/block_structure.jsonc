@@ -1,0 +1,32 @@
+{
+  "blockType": "questionnaire-control",
+  "id": "AZUBU",
+  "content": {
+    "controlId": { "$oid": "5b224b4d01e6a32ae17a747c" },
+    "maturityModelId": { "$oid": "612dcafaa5e0950b3685d353" },
+    "conditionId": null,
+    "custom": null,
+    "lang": "en_GB",
+    "itemId": "C0001",
+    "altControlId": "0", // controlId
+    "targetValue": null,
+    "targetLevel": null,
+    "targetOption": null,
+    "orderId": 1, // position in questionnaire
+    "_cache": {
+      "control": {
+        "topic": { "$oid": "625eb0cd6306161c9f158a39" },
+        "subTopic": { "$oid": "625eb0cde91a7c1c9fb4991d" },
+        "standards": [],
+        "libId": "5b224b4b01e6a32ae17a7134|737",
+        "lsFromLibId": "55d4ab6d9d3fbfcdb0f4f79d|737",
+        "orderId": "AAA0112" // control order id
+      }
+    }
+  },
+  "_cache": {
+    "startErrors": [],
+    "startHash": "3491bf98ac40999558f962582588cb9edab1b5e7",
+    "identificationHash": "ee3a6fcbb4f4c531db507f6648c3bd4a89701908"
+  }
+}

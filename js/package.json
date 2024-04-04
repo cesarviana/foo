@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "diff-match-patch": "^1.0.5",
+    "diff": "^5.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/bun": "^1.0.7",
+    "@types/diff": "^5.0.9",
+    "@types/diff-match-patch": "^1.0.36",
+    "bun-types": "^1.0.36"
+  }
+}

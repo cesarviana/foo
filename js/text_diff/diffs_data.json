@@ -1,0 +1,672 @@
+[
+  [
+    {
+      "value": "This control is dictated by the Discovery project that was just completed.",
+      "action": "removed"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies).",
+      "action": "added"
+    },
+    {
+      "value": " ",
+      "action": "same"
+    },
+    {
+      "value": "This effort is outlined in the document “Network Segmentation discovery effort -Final”, which was completed 3/22.  Currently we are working on phase one of the rollout of Illumio to desktops, slated to be completed in SMBC NA, then on to the other business units and EMEA by the end of 2024.",
+      "action": "removed"
+    },
+    {
+      "value": "This effort is slated for completion by the end of FY24.",
+      "action": "added"
+    },
+    {
+      "value": " ",
+      "action": "same"
+    },
+    {
+      "value": "024. ",
+      "action": "added"
+    },
+    {
+      "value": "This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC AD maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN).\n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC AD maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN).",
+      "action": "same"
+    },
+    {
+      "value": " \n\nThis includes an established demilitarized zone (DMZ), which allows publically accessible systems to be accessed from the internet, without having direct access to the bank's internal network zones.",
+      "action": "added"
+    },
+    {
+      "value": "\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC AD maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks.",
+      "action": "removed"
+    },
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks.",
+      "action": "added"
+    },
+    {
+      "value": " This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\n",
+      "action": "same"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which allows publically accessible systems to be accessed from the internet, without having direct access to the bank's internal network zones.",
+      "action": "removed"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which controls and  exposes publically accessible services to the internet, but without having direct access to the bank's internal network zones.",
+      "action": "added"
+    },
+    {
+      "value": "\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\n",
+      "action": "same"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which controls and  exposes publically accessible services to the internet, but without having direct access to the bank's internal network zones.",
+      "action": "removed"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which is deontrols and  exposes publically accessible services to the internet, but without having direct access to the bank's internal network zones.",
+      "action": "added"
+    },
+    {
+      "value": "\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\n",
+      "action": "same"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which is deontrols and  exposes publically accessible services to the internet, but without having direct access to the bank's internal network zones.",
+      "action": "removed"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services network zones.",
+      "action": "added"
+    },
+    {
+      "value": "\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. ",
+      "action": "same"
+    },
+    {
+      "value": "Direct access to the bank's internal systems and services network zones.",
+      "action": "removed"
+    },
+    {
+      "value": "Direct access to the bank's internal systems and services via the trusted network zones.",
+      "action": "added"
+    },
+    {
+      "value": "\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. ",
+      "action": "same"
+    },
+    {
+      "value": "Direct access to the bank's internal systems and services via the trusted network zones.\n\n",
+      "action": "removed"
+    },
+    {
+      "value": "Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. Enforcement fot \n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed.",
+      "action": "same"
+    },
+    {
+      "value": " Enforcement fot \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " \n\nEnforcement of the DMZ's is maintained by Checkpoint Software and  \n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed.",
+      "action": "same"
+    },
+    {
+      "value": " \n\nEnforcement of the DMZ's is maintained by Checkpoint Software and  \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. \n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks.",
+      "action": "same"
+    },
+    {
+      "value": " \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " Checkpoint manages a perimeter \n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks.",
+      "action": "same"
+    },
+    {
+      "value": " Checkpoint manages a perimeter \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " Checkpoint policy manages ingress web traffic and Palo Alto egress network traffic; both solutions policy enforce \n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks.",
+      "action": "same"
+    },
+    {
+      "value": " Checkpoint policy manages ingress web traffic and Palo Alto egress network traffic; both solutions policy enforce \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " Checkpoint policy manages ingress web traffic and Palo Alto egress network traffic; both solutions policy enforce perimeter segmentation.\n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. ",
+      "action": "same"
+    },
+    {
+      "value": "Checkpoint policy manages ingress web traffic and Palo Alto egress network traffic; both solutions policy enforce perimeter segmentation.\n\n",
+      "action": "removed"
+    },
+    {
+      "value": "Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce perimeter network segmentation between untrusted and trusted zones. To further compliment effective segmentation \n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN).",
+      "action": "same"
+    },
+    {
+      "value": " \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " This is achieved via the use of firewalls, IDS, IPS, and use of VLANs.\n\n",
+      "action": "added"
+    },
+    {
+      "value": "This includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce perimeter network segmentation between untrusted and trusted zones.",
+      "action": "same"
+    },
+    {
+      "value": " To further compliment effective segmentation \n\n",
+      "action": "removed"
+    },
+    {
+      "value": " \n\nTo further compliment effective segmentation as a means of restricting and properly monitoring network access to reduce organizational risk, the use of Intrusion Detection/Prevention also exists.\n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN).",
+      "action": "same"
+    },
+    {
+      "value": " \n\nThis is primarily achieved via the effective use of firewalls, IDS/IPS, and effective VLANs.",
+      "action": "added"
+    },
+    {
+      "value": " ",
+      "action": "same"
+    },
+    {
+      "value": "This is achieved via the use of firewalls, IDS, IPS, and use of VLANs.\n\nThis includes an established demilitarized zone (DMZ), which hosts publically accessible services to the internet only.",
+      "action": "removed"
+    },
+    {
+      "value": "Which includes the establishment of a demilitarized zone (DMZ), which hosts publically accessible services to the internet only.",
+      "action": "added"
+    },
+    {
+      "value": " Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce perimeter network segmentation between untrusted and trusted zones. \n\nTo further compliment effective segmentation as a means of restricting and properly monitoring network access to reduce organizational risk, the use of Intrusion Detection/Prevention also exists.\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\n",
+      "action": "same"
+    },
+    {
+      "value": "This is primarily achieved via the effective use of firewalls, IDS/IPS, and effective VLANs.",
+      "action": "removed"
+    },
+    {
+      "value": "This is primarily achieved via the effective use of firewalls, IDS/IPS, and VLANs which constitutes the establishment of a demilitarized zone (DMZ).",
+      "action": "added"
+    },
+    {
+      "value": " ",
+      "action": "same"
+    },
+    {
+      "value": "Which includes the establishment of a demilitarized zone (DMZ), which hosts publically accessible services to the internet only.",
+      "action": "removed"
+    },
+    {
+      "value": "Allowing the bank to only host publically accessible services to the internet responsibly.",
+      "action": "added"
+    },
+    {
+      "value": " Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce perimeter network segmentation between untrusted and trusted zones. \n\nTo further compliment effective segmentation as a means of restricting and properly monitoring network access to reduce organizational risk, the use of Intrusion Detection/Prevention also exists.\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\n",
+      "action": "same"
+    },
+    {
+      "value": "This is primarily achieved via the effective use of firewalls, IDS/IPS, and VLANs which constitutes the establishment of a demilitarized zone (DMZ).",
+      "action": "removed"
+    },
+    {
+      "value": "This is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs.",
+      "action": "added"
+    },
+    {
+      "value": " ",
+      "action": "same"
+    },
+    {
+      "value": "Allowing the bank to only host publically accessible services to the internet responsibly. Direct access to the bank's internal systems and services via the trusted network is policy enforced via effective segmentation policies and not allowed. \n\n",
+      "action": "removed"
+    },
+    {
+      "value": "These in conjunction constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, and monitored on a cont \n\n",
+      "action": "added"
+    },
+    {
+      "value": "Enforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce perimeter network segmentation between untrusted and trusted zones. \n\nTo further compliment effective segmentation as a means of restricting and properly monitoring network access to reduce organizational risk, the use of Intrusion Detection/Prevention also exists.\n\nThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. ",
+      "action": "same"
+    },
+    {
+      "value": "These in conjunction constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, and monitored on a cont \n\n",
+      "action": "removed"
+    },
+    {
+      "value": "These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\n",
+      "action": "added"
+    },
+    {
+      "value": "Enforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. ",
+      "action": "same"
+    },
+    {
+      "value": "Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce perimeter network segmentation between untrusted and trusted zones. \n\nTo further compliment effective segmentation as a means of restricting and properly monitoring network access to reduce organizational risk, the use of Intrusion Detection/Prevention also exists.\n\n",
+      "action": "removed"
+    },
+    {
+      "value": "Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\n\n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.",
+      "action": "same"
+    },
+    {
+      "value": "\n\n\n\n",
+      "action": "removed"
+    },
+    {
+      "value": "\n\n",
+      "action": "added"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\n",
+      "action": "same"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "removed"
+    },
+    {
+      "value": "In terms of \"micThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "added"
+    },
+    {
+      "value": "  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\n",
+      "action": "same"
+    },
+    {
+      "value": "In terms of \"micThis control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "removed"
+    },
+    {
+      "value": "In terms of \"microsegmentation\" the bank utilizes Illumio This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "added"
+    },
+    {
+      "value": "  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\n",
+      "action": "same"
+    },
+    {
+      "value": "In terms of \"microsegmentation\" the bank utilizes Illumio This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "removed"
+    },
+    {
+      "value": "In terms of \"microsegmentation\" the bank utilizes Illumio technology. This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "added"
+    },
+    {
+      "value": "  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. ",
+      "action": "same"
+    },
+    {
+      "value": "This control is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "removed"
+    },
+    {
+      "value": "This use of this control started with security the SWIFT Secure-Zone and is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "added"
+    },
+    {
+      "value": "  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. ",
+      "action": "same"
+    },
+    {
+      "value": "This use of this control started with security the SWIFT Secure-Zone and is partially dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "removed"
+    },
+    {
+      "value": "This use of this control started with security the SWIFT Secure-Zone and has been  dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "added"
+    },
+    {
+      "value": "  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. ",
+      "action": "same"
+    },
+    {
+      "value": "This use of this control started with security the SWIFT Secure-Zone and has been  dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "removed"
+    },
+    {
+      "value": "This use of this control started with segmenting SWIFT, what the bank calls the  Secure-Zone and has been  dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.",
+      "action": "added"
+    },
+    {
+      "value": "  \n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. ",
+      "action": "same"
+    },
+    {
+      "value": "This use of this control started with segmenting SWIFT, what the bank calls the  Secure-Zone and has been  dictated by the Network Segmentation Discovery project that was completed in 2022 (as per the document \"Network Segmentation discovery effort -Final\"), which was completed 3/22.  \n\n",
+      "action": "removed"
+    },
+    {
+      "value": "This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand. \n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases. Those being >>\n\n\n\n",
+      "action": "added"
+    },
+    {
+      "value": "As per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand.",
+      "action": "same"
+    },
+    {
+      "value": " \n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases. Those being >>\n\n\n\n",
+      "action": "removed"
+    },
+    {
+      "value": " \n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\n\n\n",
+      "action": "added"
+    },
+    {
+      "value": "As per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024. This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand.",
+      "action": "same"
+    },
+    {
+      "value": " \n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\n\n\nAs per FY23/24, ITSEC is currently working on phase one, which includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies).",
+      "action": "removed"
+    },
+    {
+      "value": " ",
+      "action": "same"
+    },
+    {
+      "value": "This includes SWIFT, ACEP, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, SAM, WAS-Cluster, FRAUD-AIS, etc..\n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\nThe first phase of this effort is focused on Lateral Movement for bank workstations, which address the conditions associated with Lateral Movement and the spread of Ransomware. This includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). ",
+      "action": "added"
+    },
+    {
+      "value": "This effort is slated for completion by the end of FY24. 024.",
+      "action": "same"
+    },
+    {
+      "value": " This project was scoped for Internal and remote users, although not relevant in this context, another project will be stood up for Cloud. Additional phases are documented in the deck referenced above and attacked. In addition to the workstation effort several applications have been ring-fenced. This includes Swift, SAA, ACE, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, EMONEYGER, ACTIMIZE and SAM.  The bank has rolled out Illumio, which is used to micro-segment workloads. Currently it is securing all Linux/Redhat 8 servers. \nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\n",
+      "action": "removed"
+    },
+    {
+      "value": "\n\nAdditional phases for Network Segmentation are outlined in the attached slidedeck for the \"Disccovery\" effort.\n\n\n\nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\n",
+      "action": "added"
+    },
+    {
+      "value": "Currently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand. This includes SWIFT, ACEP, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, SAM, WAS-Cluster, FRAUD-AIS, etc..\n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\nThe first phase of this effort is focused on Lateral Movement for bank workstations, which address the conditions associated with Lateral Movement and the spread of Ransomware. This includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024.\n\nAdditional phases for Network Segmentation are outlined in the attached slidedeck for the \"Disccovery\" effort.",
+      "action": "same"
+    },
+    {
+      "value": "\n\n\n\nSMBC will secure all IOT/IP Phones/Appliances with the cisco ecosystem, as it comes online (depending on hardware availability, 12 months (5/24)\nSMBC also has additional projects in flight:\n",
+      "action": "removed"
+    },
+    {
+      "value": "\n\nTo faciliate micro-segmentation for management, we make use of CyberArk PSM jump servers, which require users/admins to connect to first before administrative access is provided to systems connected to the network. This helps ot reduce the attack surface by limiting direct access to systems and it mitigates the risk of unauthorized access and lateral movement.\n\nThe bank has invested in Cisco SDA and ACI technology to provide macro segmentation and policy enforcement. This will help via the use of automated provisioning to provide tenants for Group Companies connected to the internal network. To date:\n\n* A tenant has been created for SMBC and CM.\n* Certain VLANs have been created to segment and secure IOT devices.\n\n\nSMBC also has additional projects in flight:\n",
+      "action": "added"
+    },
+    {
+      "value": "Currently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand. This includes SWIFT, ACEP, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, SAM, WAS-Cluster, FRAUD-AIS, etc..\n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\nThe first phase of this effort is focused on Lateral Movement for bank workstations, which address the conditions associated with Lateral Movement and the spread of Ransomware. This includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024.\n\nAdditional phases for Network Segmentation are outlined in the attached slidedeck for the \"Disccovery\" effort.\n\nTo faciliate micro-segmentation for management, we make use of CyberArk PSM jump servers, which require users/admins to connect to first before administrative access is provided to systems connected to the network. This helps ot reduce the attack surface by limiting direct access to systems and it mitigates the risk of unauthorized access and lateral movement.\n\nThe bank has invested in Cisco SDA and ACI technology to provide macro segmentation and policy enforcement. This will help via the use of automated provisioning to provide tenants for Group Companies connected to the internal network. To date:\n\n* A tenant has been created for SMBC and CM.\n* Certain VLANs have been created to segment and secure IOT devices.",
+      "action": "same"
+    },
+    {
+      "value": "\n\n\nSMBC also has additional projects in flight:\nCurrently there is a project to develop air-gapped backups, this will segment additional backup systems to reduce the risk of backup data breaches. Rubrik Vault is also in development for deployment within the bank and business units. Additional Snapshots of critical file stores are stored on Pure Storage array.\nAs an additional Control SMBC uses MFA on all User logins to workspaces. Yubi keys have been leveraged for privileged accounts.",
+      "action": "removed"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand. This includes SWIFT, ACEP, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, SAM, WAS-Cluster, FRAUD-AIS, etc..\n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\nThe first phase of this effort is focused on Lateral Movement for bank workstations, which address the conditions associated with Lateral Movement and the spread of Ransomware. This includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024.\n\nAdditional phases for Network Segmentation are outlined in the attached slidedeck for the \"Disccovery\" effort.\n\nTo faciliate micro-segmentation for management, we make use of CyberArk PSM jump servers, which require users/admins to connect to first before administrative access is provided to systems connected to the network. This helps ot reduce the attack surface by limiting direct access to systems and it mitigates the risk of unauthorized access and lateral movement.\n\nThe bank has invested in Cisco SDA and ACI technology to provide macro segmentation and policy enforcement. ",
+      "action": "same"
+    },
+    {
+      "value": "This will help via the use of automated provisioning to provide tenants for Group Companies connected to the internal network. To date:\n\n",
+      "action": "removed"
+    },
+    {
+      "value": "This will help via the use of automated provisioning to provide new tenants for Group Companies connected to the internal network. To date the following exists:\n\n",
+      "action": "added"
+    },
+    {
+      "value": "* A tenant has been created for SMBC and CM.\n* Certain VLANs have been created to segment and secure IOT devices.",
+      "action": "same"
+    }
+  ],
+  [
+    {
+      "value": "SMBC NYB maintains an established perimeter segmenation layer to create proper demarcation between the private (trusted internal) and public (untrusted internet and external) networks. This ensures that any publicly accessible systems and components are physically and logically separated from the bank's internal networks (WAN and LAN). \n\nThis is primarily achieved via the effective use of various technologies such as; firewalls, IDS/IPS, and VLANs. These together constitute the establishment of a demilitarized zone(s) (DMZ), which allows the bank to only expose publically accessible services to the internet in a responsible manner. \n\nDirect access to the bank's internal systems and services via the internet is properly segmented, policy enforced, restricted, and monitored on a continuous basis.\n\nEnforcement of the DMZ's is solely maintained by Checkpoint Software and Palo Alto Networks. Checkpoint policies/zones manage ingress web traffic and Palo Alto policies/zones manage egress network traffic; both solutions enforce the concept of perimeter network segmentation between untrusted (internet) and trusted (bank) networks.\n\nIn terms of \"microsegmentation\" the bank utilizes Illumio technology. This use of this control started with segmenting SWIFT, what the bank calls the \"SecureZone.\"  This same use of Illumio has been extended to other financial applications as well and continues to expand. This includes SWIFT, ACEP, PSD2, ONE SPAN, PSD2 GEO, PSD2 COUCHDB, PSD2 Digital with EBICS, SAM, WAS-Cluster, FRAUD-AIS, etc..\n\nIn FY22, the \"Network Segmentation Discovery\" project completed (as per the document \"Network Segmentation discovery effort -Final\") and this describes a bank strategy to incorporate the use of network segmentation in a phased approach to meet various defined use-cases which a key focus to address specific risk areas associated with:\n\n* Mitigation of Lateral Movement\n* The spread of Ransomware\n* Insider Threat\n\nThe first phase of this effort is focused on Lateral Movement for bank workstations, which address the conditions associated with Lateral Movement and the spread of Ransomware. This includes the rollout of Illumio VEN agents to all managed SBMC desktops throughout the AD (which is to include the Group Companies). This effort is slated for completion by the end of FY24. 024.\n\nAdditional phases for Network Segmentation are outlined in the attached slidedeck for the \"Disccovery\" effort.\n\nTo faciliate micro-segmentation for management, we make use of CyberArk PSM jump servers, which require users/admins to connect to first before administrative access is provided to systems connected to the network. ",
+      "action": "same"
+    },
+    {
+      "value": "This helps ot reduce the attack surface by limiting direct access to systems and it mitigates the risk of unauthorized access and lateral movement.",
+      "action": "removed"
+    },
+    {
+      "value": "This helps to reduce the attack surface by limiting direct access to systems and it mitigates the risk of unauthorized access and lateral movement.",
+      "action": "added"
+    },
+    {
+      "value": "\n\nThe bank has invested in Cisco SDA and ACI technology to provide macro segmentation and policy enforcement. This will help via the use of automated provisioning to provide new tenants for Group Companies connected to the internal network. To date the following exists:\n\n* A tenant has been created for SMBC and CM.\n* Certain VLANs have been created to segment and secure IOT devices.",
+      "action": "same"
+    }
+  ]
+]
